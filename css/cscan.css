@@ -1,0 +1,28 @@
+body {
+  background-color: #03b14e !important;
+}
+.confirm {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-btn {
+  margin-top: 3vh;
+  background-color: #6c757d;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.confirm-btn:hover{
+  background-color: #5c636a;
+}
+.video{
+ display: flex;
+  justify-content: center;
+}

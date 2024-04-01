@@ -1,0 +1,62 @@
+body {
+  background-color: #03b14e !important;
+}
+p {
+  color: black;
+  font-weight: 400;
+}
+.loading {
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-inline: 10vw;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.loading p:empty {
+  margin: 0;
+  padding: 0;
+}
+.loading p {
+  margin: 0;
+  padding: 0;
+}
+/* .custom-btn {
+  width: 172px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #407c87;
+  color: white;
+  margin-top: 5vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.custom-btn:hover {
+  background-color: #3b8875;
+  color: white;
+  transition-delay: 0.2s;
+  font-weight: bold;
+} */
+.confirm {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-btn {
+  margin-top: 3vh;
+  background-color: #6c757d;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.confirm-btn:hover{
+  background-color: #5c636a;
+}

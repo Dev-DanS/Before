@@ -1,0 +1,128 @@
+
+.panel {
+  background-color: #03b14e;
+  height: 8vh;
+  border-bottom-left-radius: 3.125rem;
+  border-bottom-right-radius: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Add this line to center items vertically */
+  align-items: center;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.8);
+}
+
+/* .panel .location {
+  margin-top: 2vh;
+  text-align: center;
+  margin: 0;
+  font-size: 2.3vh;
+  font-weight: 400;
+  color: white;
+} */
+
+.loc{
+  margin-top: 2vh;
+  text-align: center;
+  margin: 0;
+  font-size: 2.3vh;
+  font-weight: 400;
+  color: white;
+}
+
+.panel .welcome {
+  color: white;
+  margin-top: 0.625rem;
+  font-weight: 500;
+  font-size: 4vh;
+}
+
+.dashboard .categories {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 16px;
+  margin-top: 2vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around; /* Distributes space around divs */
+  align-items: center; /* Centers vertically */
+}
+
+.buttons .book {
+  text-align: center;
+}
+
+.book .booklabel {
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.buttons .booking {
+  height: 77px;
+  width: 77px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttons .booking:hover {
+  background-color: #ccefdc;
+}
+
+.buttons .scan {
+  text-align: center;
+}
+
+.scan .scanlabel {
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.buttons .scanqr {
+  height: 77px;
+  width: 77px;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);  */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttons .scanqr:hover {
+  background-color: #ccefdc;
+}
+
+.footer {
+  background-color: #03b14e;
+  height: 5vh;
+  border-top-left-radius: 3.125rem;
+  border-top-right-radius: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Add this line to center items vertically */
+  align-items: center;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.8);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot {
+  color: white;
+  margin-top: 0.625rem;
+  font-size: 2vh;
+  font-weight: 100;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* .navbar{
+    justify-content: center;
+    background-color: #01B14E;
+}
+.navbar .nav-link:hover {
+  color: #ffff;  
+}
+.navbar .nav-link.active {
+    color: #ffff;
+}
+.navbar .nav-link{
+    color: #58595B;
+} */
+/* Change link color */
+.navbar-nav .nav-link.active {
+    color: #01B14E; /* Change this to the color you want for the active state */
+}
+.navbar-nav .nav-link:hover {
+    color: #000; /* Change this to the color you want for the active state */
+}
+.dropdown-menu a:active {
+    background-color: #01B14E;
+}
+.dropdown-menu a:hover {
+    background-color: #01B14E;
+    color: white;
+}

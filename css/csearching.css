@@ -1,0 +1,47 @@
+body {
+  background-color: #03b14e !important;
+}
+p {
+  color: black;
+}
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
+}
+.spinner {
+  font-size: 2em;
+}
+.confirm {
+  display: flex;
+  justify-content: center;
+}
+.load {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+  margin-bottom: 2.5vh;
+}
+
+.confirm-btn {
+  margin-top: 3vh;
+  background-color: red;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+  display: none;
+}
+
+.confirm-btn:hover {
+  background-color: #5c636a;
+}

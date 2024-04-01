@@ -1,0 +1,98 @@
+body {
+  background-color: #03b14e !important;
+}
+
+.cancel {
+  display: flex;
+  justify-content: center;
+}
+
+.cancel-btn {
+  margin-top: 3vh;
+  background-color: #ff0000;
+  width: 85vw;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cancel-btn:hover {
+  background-color: #800000;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+}
+
+.start-btn {
+  margin-top: 3vh;
+  background-color: green;
+  width: 85vw;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+  display: none;
+}
+
+.start-btn:hover {
+  background-color: darkgreen;
+}
+
+.rideInfo {
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+.driverInfo {
+  display: flex;
+  align-items: center;
+}
+
+.infoText {
+  margin-left: 10px; /* Adjust as needed */
+  display: flex; /* Added */
+  justify-content: space-between; /* Added */
+  width: 100%;
+  padding-right: 30px;
+}
+
+.driverName,
+.plateNumber {
+  display: inline;
+  margin: 0;
+}
+
+.plateNumber {
+  font-weight: 600;
+}
+
+.driverName {
+  font-size: small;
+}
+
+.rideData {
+  background-color: white;
+}
+
+.rideText {
+  margin-left: 10px; /* Adjust as needed */
+  display: flex; /* Added */
+  justify-content: space-between; /* Added */
+  padding-right: 30px;
+}
+
+.otw,
+.time {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: small;
+}

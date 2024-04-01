@@ -1,0 +1,37 @@
+body {
+  background-color: #01b14e;
+  font-family: "League Spartan", sans-serif;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  display: grid;
+  place-items: center;
+  background-color: white;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 20px;
+  padding-block: 20px;
+}
+.buttons button {
+  display: block;
+  margin: 5px;
+}
+.login {
+  background-color: #01b14e;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  height: 30px;
+}
+.signup {
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  width: 200px;
+  height: 30px;
+}

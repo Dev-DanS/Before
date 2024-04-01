@@ -1,0 +1,57 @@
+body {
+  background-color: #03b14e !important;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.historyData {
+  padding-top: 10px;
+  background-color: white;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.line {
+  width: 1px;
+  height: 20px;
+  background-color: #ccc;
+  margin: 0 7px;
+}
+
+.locInfo {
+  padding-left: 10%;
+  font-size: small;
+  color: gray;
+}
+
+.pickUp {
+  margin-bottom: 0;
+}
+
+.infoText {
+  margin-left: 10px; /* Adjust as needed */
+  display: flex; /* Added */
+  justify-content: space-between; /* Added */
+  width: 100%;
+  padding-right: 30px;
+}
+
+.bookingLabel,
+.bookingId{
+    margin-bottom: 0;
+    text-align: end;
+    padding-right: 30px;
+}
+
+.plateNumber{
+    color: black;
+    font-weight: 400;
+}
+
+.date{
+    padding-left: 10px;
+}

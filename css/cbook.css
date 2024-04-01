@@ -1,0 +1,123 @@
+body {
+  background-color: #03b14e !important;
+}
+.search {
+  top: 10px;
+  /* left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; */
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#search-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #03b14e;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+#search-input:focus {
+  border: 2px solid #03b14e; /* Adjust color and width as needed */
+  outline: none; /* Remove default browser outline */
+}
+
+.dropdown-center .btn-secondary {
+  /* background-color: #fff; */
+  border-color: #3c8c74 !important;
+  margin-top: 1vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-center .btn-secondary:focus,
+.dropdown-center .btn-secondary:active {
+  /* background-color: #fff; */
+  border-color: #3c8c74;
+}
+
+.dropdown-center {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-btn {
+  margin-top: 3vh;
+  background-color: #6c757d;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  display: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.confirm-btn:hover{
+  background-color: #5c636a;
+}
+
+.undo {
+  display: flex;
+  justify-content: center;
+}
+
+.undo-btn {
+  margin-top: 3vh;
+  background-color: #6c757d;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  display: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.undo-btn:hover{
+  background-color: #5c636a;
+}
+
+.confirms {
+  display: flex;
+  justify-content: center;
+}
+
+.confirms-btn {
+  margin-top: 3vh;
+  background-color: #6c757d;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  display: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.confirms-btn:hover{
+  background-color: #5c636a;
+}
+

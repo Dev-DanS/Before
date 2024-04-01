@@ -1,0 +1,12 @@
+body {
+  background-color: #03b14e !important;
+}
+#pickupInfo {
+  display: none;
+}
+#dropoffInfo {
+  display: none;
+}
+#terminalInfo {
+  display: none;
+}

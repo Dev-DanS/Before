@@ -1,0 +1,13 @@
+body {
+  background-color: #03b14e !important;
+}
+p {
+  color: black;
+}
+.booking-info p {
+  margin: 0;
+}
+#booking-data{
+    background-color: white;
+    
+}

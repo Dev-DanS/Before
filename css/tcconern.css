@@ -1,0 +1,74 @@
+body {
+  background-color: #03b14e !important;
+}
+
+.concernContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  background-color: #e3f2fd;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.concern {
+  text-align: center;
+  padding-top: 10px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #03b14e; 
+  color: white; 
+}
+
+.input-group-text {
+  background-color: #03b14e !important; 
+  color: white !important; 
+  border-color: #03b14e;
+}.dropdown-center .btn-secondary {
+    /* background-color: #fff; */
+    border-color: #3c8c74;
+    margin-top: 1vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dropdown-center .btn-secondary:focus,
+  .dropdown-center .btn-secondary:active {
+    /* background-color: #fff; */
+    border-color: #3c8c74;
+  }
+  
+  .dropdown-center {
+    display: flex;
+    justify-content: center;
+  }
+
+.file{
+    margin-top: 20px;
+}
+
+.endTrip {
+  display: flex;
+  justify-content: center;
+}
+
+.endTrip-btn {
+  margin-top: 3vh;
+  background-color: #03b14e;
+  width: 85vw;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
